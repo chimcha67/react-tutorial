@@ -1,0 +1,15 @@
+.container1{
+    height: 160px;
+    width: 160px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50PX;
+  }
+  img{
+    padding: 30px;
+  }
+  
+  

@@ -1,0 +1,40 @@
+.navbar{
+    width: 100vw;
+    height: 70px;
+    padding-left: 40px;
+    display: flex;
+    background-color: #000;
+    
+  }
+  .navbar ul{
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    right: 190px;
+    transform: translateY(35%);
+    
+    
+   
+  }
+  .navbar ul Link{
+    padding: 0 15px;
+    color: beige;
+    margin-left: -20px;
+  }
+  .navbar h3{
+    color: beige;
+    margin-left: 180px;
+  }
+  @media(max-width:700px){
+    .navbar h3{
+      margin-left: 30px;
+      font-size: 20px;
+    }
+    .navbar ul{
+      display: none;
+    }
+  }

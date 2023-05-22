@@ -1,0 +1,38 @@
+/* .container{
+  height: 50px;
+  width: 50px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.home{
+  height: 50px;
+  width: 50px;
+  background-color: aquamarine;
+  border-radius: 10px;
+} */
+
+.App{
+  position: relative;
+  overflow-x: clip;
+}
+
+.App>:nth-child(1){
+  /* background: black; */
+  position: relative;
+}
+
+.white-gradient{
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  background: rgba(255, 255, 255, 0.522);
+  filter: blur(100px);
+  z-index: 1;
+  border-radius: 100px;
+}
+@media(max-width:700px){
+  .white-gradient{
+    display: none;
+  }
+}
